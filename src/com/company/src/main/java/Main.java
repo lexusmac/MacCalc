@@ -7,23 +7,23 @@ public class Main {
     public static final String ANSI_GREEN = "\u001b[32m";
     public static void main(String[] args) {
         String word = "первое";
-        int number1 = getInt(word);
+        double number1 = getDouble(word);
         word = "второе";
-        int number2 = getInt(word);
+        double number2 = getDouble(word);
         char operation = getOperation();
-        int result = calc(number1,number2,operation);
+        double result = calc(number1,number2,operation);
         System.out.println("Результат выбранной операции: "+ ANSI_GREEN + result);
     }
 
-    public static int getInt(String word){
+    public static double getDouble(String word){
         System.out.println("Введите " + word + " число:");
-        int num;
-        if(scanner.hasNextInt()){
-            num = scanner.nextInt();
+        double num;
+        if(scanner.hasNextDouble()){
+            num = scanner.nextDouble();
         } else {
-            System.out.println("Вы ввели не целое числа. Попробуйте еще раз.");
+            System.out.println("Вы ввели не целое числа либо без ',' . Попробуйте еще раз.");
             scanner.next();
-            num = getInt(word);
+            num = getDouble(word);
         }
         return num;
     }
@@ -41,8 +41,8 @@ public class Main {
         return operation;
     }
 
-    public static int calc(int number1, int number2, char operation){
-        int result;
+    public static double calc(double number1, double number2, char operation){
+        double result;
         switch (operation){
             case '+':
                 result = number1+number2;

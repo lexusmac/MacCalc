@@ -16,24 +16,31 @@ public class TestCalc {
     @DataProvider
     public Object[][] summParamData() {
         return new Object[][]{
-                {0, calculator.calc(-2, 2,'+')},
-                {500000, calculator.calc(1000000, 2,'/')},
-                {6, calculator.calc(2, 3,'*')},
-                {0, calculator.calc(0, 0,'-')},
-                {-100, calculator.calc(-30, -70,'+')},
-                {10000, calculator.calc(3000, 7000,'+')},
+                {0.0, calculator.calc(-2, 2,'+')},
+                {0.75, calculator.calc(3, 4,'/')},
+                {0.3333333333333333, calculator.calc(1, 3,'/')},
+                {0.001, calculator.calc(0.002, 2,'/')},
+                {0.0, calculator.calc(0, 2,'/')},
+                {500000.0, calculator.calc(1000000, 2,'/')},
+                {10000.0, calculator.calc(3000, 7000,'+')},
+                {6.0, calculator.calc(2, 3,'*')},
+                {-1.0, calculator.calc(-1, 1,'*')},
+                {-2.0, calculator.calc(-1, 2,'*')},
+                {4.0, calculator.calc(2, -2,'-')},
+                {-4.0, calculator.calc(-2, -2,'+')},
+                {0.0, calculator.calc(0, 0,'-')},
         };
     }
 
     @Test(dataProvider = "summParamData")
-    public void p3(int rez, int sumDigit) {
+    public void p3(double rez, double sumDigit) {
         assertEquals(rez, sumDigit);
         System.out.println("p3(set param): The result is true = " + rez);
     }
 
      @Test
      public void p2() throws Exception {
-         Assert.assertEquals(2, calculator.calc(1,1,'+' ));
+         Assert.assertEquals(2.0, calculator.calc(1,1,'+' ));
          System.out.println("p2: The result is true");
      }
 

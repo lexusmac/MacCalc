@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28b4c46-c341-45f7-b2c3-b5da8916c013" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/src/test/java/TestsRun.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/MacCalc/com/company/Fib.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/MacCalc/com/company/MacCalc2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/MacCalc/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Calc.iml" afterPath="$PROJECT_DIR$/src/com/company/Calc.iml" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Fib.java" afterPath="$PROJECT_DIR$/src/com/company/src/main/java/Fib.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MacCalc2.java" afterPath="$PROJECT_DIR$/src/com/company/src/main/java/MacCalc2.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/src/main/java/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/com/company/src/main/java/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java" afterPath="$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/src/com/company/target/" />
@@ -24,25 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="391">
+              <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCalc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCalc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/Email/EmailSearch.java" />
         <option value="$PROJECT_DIR$/src/com/company/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/company/src/test/java/CalcTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/src/test/java/TestsRun.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java" />
       </list>
     </option>
@@ -433,50 +426,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Julia_IdeaProjects_MacCalc_src_com_company_src_test_java_TestsRun_xml - 2018.02.16 at 18h 07m 29s.xml">
-      <configuration name="C:/Users/Julia/IdeaProjects/MacCalc/src/com/company/src/test/java/TestsRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Julia_IdeaProjects_MacCalc_src_com_company_src_test_java_TestsRun_xml - 2018.02.16 at 18h 28m 53s.xml">
-      <configuration name="C:/Users/Julia/IdeaProjects/MacCalc/src/com/company/src/test/java/TestsRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Julia_IdeaProjects_MacCalc_src_com_company_src_test_java_TestsRun_xml - 2018.02.16 at 18h 29m 02s.xml">
-      <configuration name="C:/Users/Julia/IdeaProjects/MacCalc/src/com/company/src/test/java/TestsRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Julia_IdeaProjects_MacCalc_src_com_company_src_test_java_TestsRun_xml - 2018.02.16 at 18h 29m 25s.xml">
-      <configuration name="C:/Users/Julia/IdeaProjects/MacCalc/src/com/company/src/test/java/TestsRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Julia_IdeaProjects_MacCalc_src_com_company_src_test_java_TestsRun_xml - 2018.02.16 at 18h 30m 37s.xml">
-      <configuration name="C:/Users/Julia/IdeaProjects/MacCalc/src/com/company/src/test/java/TestsRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCalc_(1) - 2018.02.16 at 18h 03m 41s.xml">
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 17m 57s.xml">
       <configuration name="TestCalc (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCalc_(1) - 2018.02.16 at 18h 05m 23s.xml">
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 20m 43s.xml">
       <configuration name="TestCalc (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCalc_(1) - 2018.02.16 at 18h 20m 23s.xml">
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 22m 53s.xml">
       <configuration name="TestCalc (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCalc_(1) - 2018.02.16 at 18h 23m 06s.xml">
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 25m 20s.xml">
       <configuration name="TestCalc (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCalc_(1) - 2018.02.16 at 18h 35m 36s.xml">
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 26m 25s.xml">
+      <configuration name="TestCalc (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 34m 11s.xml">
+      <configuration name="TestCalc (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 35m 25s.xml">
+      <configuration name="TestCalc (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 36m 12s.xml">
+      <configuration name="TestCalc (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 37m 30s.xml">
+      <configuration name="TestCalc (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCalc_(1) - 2018.02.19 at 17h 43m 02s.xml">
       <configuration name="TestCalc (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.48487142" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4697428" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2993421" sideWeight="0.18835099" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44407895" sideWeight="0.2065053" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2993421" sideWeight="0.811649" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44407895" sideWeight="0.7934947" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49092284" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/src/test/java/TestsRun.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -798,13 +782,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/src/test/java/TestCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="120">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
