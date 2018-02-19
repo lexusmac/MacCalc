@@ -8,6 +8,7 @@
                     <include name="p2" />
                     <include name="p3" />
                     <include name="p1" />
+                    <include name="p4" />
                 </methods>
             </class>
         </classes>
