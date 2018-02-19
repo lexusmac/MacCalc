@@ -1,5 +1,4 @@
-package com.company;
-
+package com.Calc;
 import java.util.Scanner;
 
 public class Main {
