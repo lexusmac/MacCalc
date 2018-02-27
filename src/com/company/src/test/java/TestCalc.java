@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
+import java.io.IOException;
 
 import com.Calc.Main;
 
@@ -78,4 +79,16 @@ public class TestCalc {
      public void neverUsed() {
         System.out.println("Данный метод не будет выполнен");
      }
+//     @Test(expectedExceptions = ArithmeticException.class)
+//     public void divisionWithException() {
+//         Assert.assertEquals("Infinity", calculator.calc(2,0,'/'));
+//     }
+//     @Test(expectedExceptions = { IOException.class, NullPointerException.class })
+//     public void divisionWithException2(){
+//         calculator.calc(2,0,'/');
+//     }
+//     @Test(expectedExceptions = ArithmeticException.class)
+//     public void divisionWithException() {
+//         calculator.calc(2,0,'/');
+//     }
 }
