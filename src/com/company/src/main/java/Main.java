@@ -41,7 +41,7 @@ public class Main {
         return operation;
     }
 
-    public static double calc(double number1, double number2, char operation){
+    public static double calc(double number1, double number2, char operation) {
         double result;
         switch (operation){
             case '+':
@@ -54,7 +54,10 @@ public class Main {
                 result = number1*number2;
                 break;
             case '/':
-                result = number1/number2;
+                if (number2 == 0){
+                    throw new IllegalArgumentException("Cannot divide by 0!");
+                }
+                result = number1 / number2;
                 break;
             default:
                 System.out.println("Операция не распознана. Повторите ввод: -, +, *, / ");

@@ -81,7 +81,7 @@ public class TestCalc {
      }
 //     @Test(expectedExceptions = ArithmeticException.class)
 //     public void divisionWithException() {
-//         Assert.assertEquals("Infinity", calculator.calc(2,0,'/'));
+//         Assert.assertNotEquals("Infinity", calculator.calc(2,0,'/'));
 //     }
 //     @Test(expectedExceptions = { IOException.class, NullPointerException.class })
 //     public void divisionWithException2(){
@@ -91,4 +91,10 @@ public class TestCalc {
 //     public void divisionWithException() {
 //         calculator.calc(2,0,'/');
 //     }
+     @Test(expectedExceptions = IllegalArgumentException.class)
+     public void divisionWithException() {
+         System.out.println("p5 : Cannot divide by 0!");
+         calculator.calc(2,0,'/');
+         //System.out.println("p5 : Cannot divide by 0!");
+     }
 }

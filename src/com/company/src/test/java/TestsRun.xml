@@ -9,6 +9,7 @@
                     <include name="p3" />
                     <include name="p1" />
                     <include name="p4" />
+                    <include name="divisionWithException" />
                 </methods>
             </class>
         </classes>
